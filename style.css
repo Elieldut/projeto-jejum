@@ -32,12 +32,12 @@
         font-size:1.2em;
         text-align: center;
         padding-top:2%;
-        margin-bottom: 3%;
+        margin-bottom: 2%;
     }
 
     header > h1{
         font-family:var(--font-destaque);
-        font-size:2.6em;
+        font-size:2.7em;
         text-shadow: 10px 8px 3px rgb(0, 0, 0);
     }
 
@@ -55,8 +55,8 @@
     main{
     background-color: white;
     padding: 2%;
-    margin-left: 9%;
-    margin-right: 9%;
+    margin-left: 10%;
+    margin-right: 10%;
     line-height: 30px;
     margin: 2%;
     border-radius: 15px ;
@@ -65,9 +65,9 @@
     }
 
     main > h2{
-        
-            font-size:1.8em;
+            font-size:1.6em;
             text-decoration: underline;
+            text-align: center;
         }
 
     main > p{
@@ -105,6 +105,8 @@
     background-position: center center;
     position: relative;
     background-size: cover;
+    font-size: 0.9em;
+    text-align: center;
     }
 
     div{
@@ -120,13 +122,16 @@
 
     aside{
         background-color: rgba(19, 19, 19, 0.37);
-        margin-right: 30%;
+        font-weight: bolder;
         text-shadow: 3px 2px black;
+        font-size: 1.4em;
     }
 
     article h2{
         margin-top: 2%;
-        margin-bottom:2% ;
+        text-align: center;
+        font-size: 1.3em;
+
     }
 
     main > ul{
