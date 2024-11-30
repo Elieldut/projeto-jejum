@@ -1,0 +1,155 @@
+    @charset "UTF-8";
+
+    *{
+        margin: auto;
+        
+    }
+
+    @import url('https://fonts.googleapis.com/css2?family=Domine:wght@400..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Passion+One:wght@400;700;900&display=swap');
+
+@font-face{
+    font-family:'PassionOne-Regular' ;
+    src: url(./Fonts/PassionOne-Regular.ttf) 
+    format(truetype);
+
+    @import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
+
+}
+:root{
+    --font-destaque:'Bungee-Regular';
+    --font-padrao:'PassionOne-Regular';
+
+}
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #c9c8c8;
+    }
+
+    header{
+        background-image: linear-gradient(to bottom, rgb(90, 90, 90),rgba(0, 0, 0, 0.836));
+        color: rgb(255, 255, 255);
+        font-size:1.2em;
+        text-align: center;
+        padding-top:2%;
+        margin-bottom: 3%;
+    }
+
+    header > h1{
+        font-family:var(--font-destaque);
+        font-size:2.6em;
+        text-shadow: 10px 8px 3px rgb(0, 0, 0);
+    }
+
+    header > p{
+            padding: 2%;
+            padding-bottom:2%;
+            font-size: 1.4em;
+            font-family:'PassionOne-Regular';
+        font-weight: lighter;
+            text-shadow: 15px 4px 4px black;
+        }
+
+
+
+    main{
+    background-color: white;
+    padding: 2%;
+    margin-left: 9%;
+    margin-right: 9%;
+    line-height: 30px;
+    margin: 2%;
+    border-radius: 15px ;
+    box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.521);
+
+    }
+
+    main > h2{
+            font-size:1.8em;
+            text-decoration: underline;
+        }
+
+    main > p{
+        font-size: 1.2em;
+        margin-top: 2%;
+        margin-bottom:2% ;
+    }
+
+    article{
+        margin-top: 2%;
+        margin-bottom:2% ;
+        font-size: 1.2em;
+        background-color:rgb(37, 37, 37) ;
+        margin-left:-2.18% ;
+        margin-right: -2.18%;
+        padding: 2%;
+        color: #ffffff;
+    }
+
+    article#img01{
+    background-image: url(imagens/agua-morna-em-jejum-1.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    background-size: cover;
+    }
+
+    div#img02{
+    background-image: url(imagens/bioimpedancia.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    background-size: cover;
+    }
+
+    div{
+        margin-top: 2%;
+        margin-bottom:2% ;
+        font-size: 1.2em;
+        background-color:rgb(37, 37, 37) ;
+        margin-left:-2.18% ;
+        margin-right: -2.18%;
+        padding: 2%;
+        color: #ffffff;
+    }
+
+    aside{
+        background-color: rgba(19, 19, 19, 0.37);
+        margin-right: 30%;
+        text-shadow: 3px 2px black;
+    }
+
+    article h2{
+        margin-top: 2%;
+        margin-bottom:2% ;
+    }
+
+    main > ul{
+        font-size: 1.2em;
+        font-weight: lighter;
+    }
+
+    footer{
+        
+        background-color: rgba(0, 0, 0, 0.897);
+        color: rgb(255, 255, 255);
+        font-weight: lighter;
+        text-align: center;
+        font-size: large;
+        padding: 3px;
+        
+        
+    }
+
+    footer a {
+        color: rgb(255, 255, 255);
+    }
+
+    footer a:hover{
+        color: rgb(0, 217, 255);
+    } 
+
