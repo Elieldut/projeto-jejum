@@ -126,6 +126,10 @@
         font-size: 1.4em;
     }
 
+    aside h2{
+        text-align: center;
+    }
+
     article h2{
         margin-top: 2%;
         text-align: center;
