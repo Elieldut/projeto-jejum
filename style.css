@@ -35,7 +35,7 @@
     }
 
     header > h1{
-        font-family:'Bungee-Regular';
+        font-family:'Courier New', Courier, monospace;
         font-size:3.4em;
         text-shadow: 10px 8px 3px rgb(0, 0, 0);
     }
