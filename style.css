@@ -17,7 +17,7 @@
 
 }
 :root{
-    --font-destaque:'.//Fonts/Bungee-Regular.ttf';
+    --font-destaque:'Bungee-Regular';
     --font-padrao:'PassionOne-Regular';
 
 }
@@ -29,7 +29,6 @@
     header{
         background-image: linear-gradient(to bottom, rgb(90, 90, 90),rgba(0, 0, 0, 0.836));
         color: rgb(255, 255, 255);
-        font-size:1.2em;
         text-align: center;
         padding-top:2%;
         margin-bottom: 2%;
@@ -37,7 +36,7 @@
 
     header > h1{
         font-family:var(--font-destaque);
-        font-size:2.7em;
+        font-size:2.8em;
         text-shadow: 10px 8px 3px rgb(0, 0, 0);
     }
 
