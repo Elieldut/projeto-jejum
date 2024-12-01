@@ -106,11 +106,6 @@
     position: relative;
     background-size: cover;
     font-size: 0.9em;
-    text-align: center;
-    }
-
-    div#img02 > p{
-        text-align: left;
     }
 
     div{
